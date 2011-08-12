@@ -4,7 +4,7 @@
 Summary:	DokuWiki plugin to add template capabilities to the data plugin
 Name:		dokuwiki-plugin-%{plugin}
 Version:	20110203
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Applications/WWW
 Source0:	https://github.com/ccl/dokuwiki-plugin-datatemplate/tarball/master#/%{plugin}.tgz
@@ -37,7 +37,6 @@ offers a custom search form, pagination and result caching.
 
 %prep
 %setup -qc
-# for github urls:
 mv *-%{plugin}-*/* .
 rm *-%{plugin}-*/.gitignore
 
