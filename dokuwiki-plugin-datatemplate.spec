@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	DokuWiki plugin to add template capabilities to the data plugin
 Name:		dokuwiki-plugin-%{plugin}
-Version:	20110203
-Release:	2
+Version:	20110827
+Release:	1
 License:	GPL v2
 Group:		Applications/WWW
-Source0:	https://github.com/ccl/dokuwiki-plugin-datatemplate/tarball/master#/%{plugin}.tgz
-# Source0-md5:	24fa802fa2cc5a3b6337fe24f1b75a18
+Source0:	https://github.com/ccl/dokuwiki-plugin-datatemplate/tarball/master#/%{plugin}-%{version}.tgz
+# Source0-md5:	2ffcb683f4553b4492ae70751f465e1a
 URL:		http://www.dokuwiki.org/plugin:datatemplate
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.520
@@ -66,4 +66,5 @@ fi
 %dir %{plugindir}
 %{plugindir}/*.css
 %{plugindir}/*.txt
+%{plugindir}/*.php
 %{plugindir}/syntax
