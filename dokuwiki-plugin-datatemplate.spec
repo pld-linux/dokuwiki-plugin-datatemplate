@@ -8,7 +8,7 @@ Release:	1
 License:	GPL v2
 Group:		Applications/WWW
 Source0:	https://github.com/ccl/dokuwiki-plugin-datatemplate/tarball/master#/%{plugin}-%{version}.tgz
-# Source0-md5:	2ffcb683f4553b4492ae70751f465e1a
+# Source0-md5:	011bca52756c29137d1715a37395cc45
 URL:		http://www.dokuwiki.org/plugin:datatemplate
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.520
