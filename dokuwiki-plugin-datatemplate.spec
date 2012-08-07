@@ -4,7 +4,7 @@
 Summary:	DokuWiki plugin to add template capabilities to the data plugin
 Name:		dokuwiki-plugin-%{plugin}
 Version:	20110827
-Release:	2
+Release:	6
 License:	GPL v2
 Group:		Applications/WWW
 Source0:	https://github.com/ccl/dokuwiki-plugin-datatemplate/tarball/master#/%{plugin}-%{version}.tgz
@@ -14,8 +14,8 @@ BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.520
 Requires:	dokuwiki >= 20090214
 Requires:	dokuwiki-plugin-data
+Requires:	php(pcre)
 Requires:	php-common >= 4:%{php_min_version}
-Requires:	php-pcre
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
