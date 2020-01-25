@@ -1,6 +1,5 @@
 %define		plugin		datatemplate
 %define		php_min_version 5.1.0
-%include	/usr/lib/rpm/macros.php
 Summary:	DokuWiki plugin to add template capabilities to the data plugin
 Name:		dokuwiki-plugin-%{plugin}
 Version:	20110827
